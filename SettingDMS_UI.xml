@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SettingDMS_UI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MyGridView_ShowVerticalLines>true</MyGridView_ShowVerticalLines>
+  <MyGridView_ShowHorizontalLines>true</MyGridView_ShowHorizontalLines>
+  <FormModules_NewlyOpenedFormTabbedOnMainForm>true</FormModules_NewlyOpenedFormTabbedOnMainForm>
+  <FormMain_MaximizedWindowByDefault>true</FormMain_MaximizedWindowByDefault>
+</SettingDMS_UI> 

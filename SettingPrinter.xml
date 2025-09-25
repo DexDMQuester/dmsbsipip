@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Printer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SOPenjualan>Microsoft Print to PDF</SOPenjualan>
+  <Penjualan>Microsoft Print to PDF</Penjualan>
+  <SuratJalan>Microsoft Print to PDF</SuratJalan>
+  <DraftPengirimanBarang>Microsoft Print to PDF</DraftPengirimanBarang>
+  <ReturPenjualan>Microsoft Print to PDF</ReturPenjualan>
+  <PurchaseRequest>Microsoft Print to PDF</PurchaseRequest>
+  <POPembelian>Microsoft Print to PDF</POPembelian>
+  <PenerimaanPembelian>Microsoft Print to PDF</PenerimaanPembelian>
+  <Pembelian>Microsoft Print to PDF</Pembelian>
+  <ReturPembelian>Microsoft Print to PDF</ReturPembelian>
+  <BukuPengeluaranPanjar>Microsoft Print to PDF</BukuPengeluaranPanjar>
+  <BukuGiroHutang>Microsoft Print to PDF</BukuGiroHutang>
+  <DaftarTandaTerima>EPSON L3210 Series</DaftarTandaTerima>
+  <VoucherPembayaranHutang>Microsoft Print to PDF</VoucherPembayaranHutang>
+  <Penyesuaian>Microsoft Print to PDF</Penyesuaian>
+  <PenerimaanBarang>Microsoft Print to PDF</PenerimaanBarang>
+  <PengeluaranBarang>Microsoft Print to PDF</PengeluaranBarang>
+  <Pemusnahan>Microsoft Print to PDF</Pemusnahan>
+  <Mutasi>Microsoft Print to PDF</Mutasi>
+  <PelunasanPiutang>Microsoft Print to PDF</PelunasanPiutang>
+  <Produksi>Microsoft Print to PDF</Produksi>
+  <Default>Microsoft Print to PDF</Default>
+  <LHPP>Microsoft Print to PDF</LHPP>
+  <JurnalUmum>Microsoft Print to PDF</JurnalUmum>
+  <HutangOutpost>Microsoft Print to PDF</HutangOutpost>
+</Printer>
