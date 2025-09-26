@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: Define paths
 set REPO_DIR=%~dp0
-set EXE_NAME=DMS.exe
+set EXE_NAME=X.exe
 set EXE_PATH=%REPO_DIR%\%EXE_NAME%
 
 :: Navigate to repo
@@ -12,8 +12,17 @@ cd /d "%REPO_DIR%"
 :: Check if .exe is running
 tasklist /FI "IMAGENAME eq %EXE_NAME%" | find /I "%EXE_NAME%" >nul
 if %errorlevel%==0 (
-    echo ERROR: %EXE_NAME% is currently running and may lock files.
+    echo WARNING: %EXE_NAME% is currently running and may lock files.
     goto run_program
+)
+
+:: Attempt to restore .exe before pulling
+echo Attempting to restore %EXE_NAME%...
+git restore "%EXE_NAME%" >nul 2>&1
+if %errorlevel%==0 (
+    echo Restore succeeded.
+) else (
+    echo Restore failed or not needed.
 )
 
 :: Try git pull and capture output
