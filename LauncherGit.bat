@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: Define paths
 set REPO_DIR=%~dp0
-set EXE_NAME=X.exe
+set EXE_NAME=DMS.exe
 set EXE_PATH=%REPO_DIR%\%EXE_NAME%
 
 :: Navigate to repo
